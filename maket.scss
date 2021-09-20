@@ -1,0 +1,934 @@
+@import url(maket-0.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+.block-1 {
+	background: url(handshake.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+
+}
+
+
+
+.selection-inner-all-border-big {
+	width: 100%;
+	height: 50%;
+
+}
+
+.layer {
+	width: 100%;
+	min-height: 400;
+}
+
+.title-1 {
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 80px;
+	text-align: center;
+	width: 900px;
+	height: 202px;    //172
+	margin: 0 auto;
+   // padding-top: 220px;
+    letter-spacing: 7px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.sub-title {
+	width: 600px;
+	height: 60px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	margin: 0 auto;
+    color: white;
+   // padding-top: 160px;
+}
+
+.btn-1 {
+	height: 65px;
+ 	width: 280px;  
+    margin-top: 10px;
+   // padding-top: 100px;
+   margin: 0 auto;
+}
+
+.contact {
+	border: medium none;
+  	background-image: none; 
+  	background: transparent;
+ 	background-color: transparent;
+ 	font-size: 20px;
+ 	border: 2px solid;
+ 	border-radius: 32px;
+ 	color: white;
+ 	height: 65px;
+ 	width: 280px;
+ 	margin-top: 30px;
+
+}
+
+.contact:hover {
+	color: rgb(60, 170, 247);
+}
+
+
+// - - - Преимущества работы со мной - - -
+
+.advantages-of-working-with-me {
+	width: 100%;
+	height: 660px;
+	background-color: #fefffc;
+	
+}
+
+.advantages {
+	height: 200px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 45px;
+	color: black;
+	letter-spacing: 7px;
+	display: flex;
+	align-items: center;
+	// text-align: center;
+	// margin: 0 auto;
+	justify-content: center;
+}
+
+.why-to-me {
+	height: 100px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	letter-spacing: 3px;
+}
+
+.noise-new {
+	width: 1110px;
+	height: 320px;
+	background-color: #fefffc;
+	margin: 0 auto;
+    display: flex;
+}
+
+.individ {
+	width: 370px;
+	height: 320px;
+	background-color: #fefffc;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.ind-txt {
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+
+.icon-1 {
+	background: url(1.svg);
+	width: 128px;
+	height: 128px;
+	margin: 0 auto;
+    background-size: 100%;
+}
+
+.ind-title {
+	margin: 15px 0;
+}
+
+.focuss {
+	width: 370px;
+	height: 320px;
+	background-color: #fefffc;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.icon-2 {
+	background: url(2.svg);
+	width: 128px;
+	height: 128px;
+	margin: 0 auto;
+    background-size: 100%;
+}
+
+.foc-title {
+	margin: 15px 0;
+}
+
+.foc-txt {
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+
+.fix-price {
+	width: 370px;
+	height: 320px;
+	background-color: #fefffc;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.icon-3 {
+	background: url(3.svg);
+	width: 128px;
+	height: 128px;
+	margin: 0 auto;
+    background-size: 100%;
+
+}
+
+.fix-txt {
+	width: 370px;
+	height: 80px;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+
+.fix-title {
+	margin: 15px 0;
+}
+
+// - - - Основные направления в работе - - -
+
+.main-directions-of-work {
+	width: 100%;
+	height: 1010px;
+	background-color: #f2f2f2; 
+}
+
+.main-directions {
+	display: flex;
+	width: 100%;
+	height: 200px;
+	align-items: center;
+	justify-content: center;
+}
+
+.main {
+	height: 50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 45px;
+	color: black;
+	letter-spacing: 7px;
+	display: flex;
+	width: 705px;
+}
+
+.select-a-service {
+	height: 100px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	letter-spacing: 3px;
+}
+
+// - - - - - - - - - - - - - - - - - - - - //
+
+.bigg {
+	width: 100%;
+	height: 700px;
+	//background-color: #85f2b1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.common-cards {
+	width: 1180px;
+	height: 630px;
+	background-color: #f2f2f2;
+}
+
+.first-line {
+	width: 1180px;
+	height: 200px;
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 20px;
+}
+
+.cards-1 {
+	height: 200px;
+	width: 580px;
+	background-color: #fefffc;
+}
+
+.title-cards-1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	color: black;
+	font-weight: 600;
+	height: 35px;
+	margin-left: 10px;
+}
+
+.cards-1-txt-1 {
+	font-size: 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.completion {
+	width: 580px;
+	height: 75px;
+	display: flex;
+}
+
+.cards-1-txt-2 {
+	margin-top: 25px;
+	font-size: 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+	width: 180px;
+	margin-left: 10px;
+}
+
+.cards-1-price {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	color: black;
+	font-weight: 600;
+	height: 35px;
+	margin-top: 25px;
+}
+
+.cards-2 {
+	height: 200px;
+	width: 580px;
+	background-color: #fefffc;
+}
+
+
+// - - - - Оставьте заявку на сайте - - - - - 
+
+.list-33 {
+	height: 500px;
+	width: 100%;
+	background-color: #fefffc;      //#fefffc;
+	display: flex;
+}
+
+.form-bg-color {
+	width: 940px;
+	height: 230px;
+	border: 3px solid #e2e2e2;
+	background-color: #f2f2f2;
+	//align-items: center;
+	//justify-content: center;
+	//position: absolute;
+	margin: 0 auto;
+	margin-top: 135px;
+}
+
+.leave-a-request-33 {
+	font-size: 28px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+	margin-left: 175px;
+	margin-top: 15px;
+}
+
+.inputt-fields {
+	width: 930px;
+	height: 100px;
+	background-color: #f2f2f2;   //#f2f2f2
+	display: flex;
+}
+
+.name-1 {
+	margin-left: 60px;
+	margin-top: 35px;
+	border: 0;
+	border-bottom: 1px solid black;
+	outline: 0;
+	height: 40px;
+	background: transparent;
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+
+.mail {
+	margin-left: 60px;
+	margin-top: 35px;
+	border: 0;
+	border-bottom: 1px solid black;
+	outline: 0;
+	height: 40px;
+	background: transparent;
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.phone-number {
+	margin-left: 60px;
+	margin-top: 35px;
+	border: 0;
+	border-bottom: 1px solid black;
+	outline: 0;
+	height: 40px;
+	background: transparent;
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+a.button-1 {
+	margin-left: 30px;
+	margin-top: 10px;
+  	display: inline-block;
+ 	background: #2196f3;
+  	color: #fff;
+  	padding: 9px;
+  	border-radius: 20px;
+  	text-decoration: none;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 20px;
+  	line-height: 1;
+  	font-weight: 100;
+  	height: 40px;
+  	width: 150px;
+  	cursor: pointer;
+}
+
+.sign-ap {
+  margin: 24px;
+  text-align: center;
+  height: 40px;
+}
+
+.button-1:hover {
+	top: 2px;
+	box-shadow: 0 3px 0px #3c354a;
+	background-color: #2196f3;
+}
+
+.button-1{
+	color: #fff;
+	background-color: #5e5373;
+	box-shadow: 0 5px 0px #3c354a;    
+	transition-duration: 0.5s;
+}
+
+.pushing-the-button {
+	width: 930px;
+	height: 80px;
+	font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 18px;
+  	line-height: 1;
+  	font-weight: 100;
+  	margin-left: 57px;
+  	margin-top: 20px;
+}
+.cosent {
+	color:#2196f3;
+	text-decoration: underline;
+}
+.cosent:hover {
+	cursor: pointer;
+}
+
+// - - - - Проф помощь юриста - - -
+
+.prof-legal-assistance {
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 850px;
+	display: flex;
+}
+
+.lawer {
+	height: 700px;
+	width: 550px;
+	background-color: #f2f2f2;
+	margin-left: 150px;
+	margin-top: 100px;
+
+}
+
+.img-lawer {
+	height: auto;
+	width: 500px;
+}
+
+.legal-assistance {
+	height: 650px;
+	width: 500px;
+	background-color: #f2f2f2;
+	margin-top: 100px;
+}
+
+.legal-assistance-title {
+	font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 59px;
+  	line-height: 1;
+  	font-weight: 400;
+  	height: 130px;
+  	width: 500px;
+}
+
+.legal-assistance-txt {
+	margin-top: 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 25px;
+  	line-height: 1;
+  	font-weight: 300;
+  	//height: 130px;
+  	width: 500px;
+}
+
+.sign-ap-2 {
+  margin: 24px 0 0 0;
+  text-align: center;
+  height: 40px;
+
+}
+.button-2:hover {
+	top: 2px;
+	box-shadow: 0 3px 0px #3c354a;
+	background-color: #2196f3;
+}
+
+.button-2{
+	color: #fff;
+	background-color: #5e5373;
+	box-shadow: 0 5px 0px #3c354a;    
+	transition-duration: 0.5s;
+}
+.button-2 {
+	// margin-left: 30px;
+	margin-top: 10px;
+  	display: inline-block;
+ 	background: #2196f3;
+  	color: #fff;
+  	padding: 9px;
+  	border-radius: 20px;
+  	text-decoration: none;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 20px;
+  	line-height: 1;
+  	font-weight: 100;
+  	height: 40px;
+  	width: 260px;
+  	cursor: pointer;
+}
+
+.btn-sign {
+	display: flex;
+}
+
+// - - - Получите консультацию специалиста - - - 
+
+.Get-expert-advice-bg {
+	width: 100%;
+	height: 480px;
+	display: flex;
+}
+
+.bg-documents {
+	width: 100%;
+	height: 480px;
+	background: url(documents.jpeg) 0 0 no-repeat fixed;
+}
+
+.form-bg-color-2 {
+  width: 940px;
+  height: 230px;
+  border: 3px solid #e2e2e2;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  margin-top: 135px;
+}
+
+.leave-a-request-22 {
+  font-size: 36px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-left: 175px;
+  margin-top: 15px;
+}
+
+
+// - - - Каким образом решаются юридические споры - - -
+
+.legal-disputes-bg {
+	background-color: #f2f2f2;
+    width: 100%;
+    height: 850px;
+    display: flex;
+}
+
+.legal-disputes-common {
+	height: 700px;
+	width: 550px;
+	background-color: #f2f2f2;
+	margin-top: 100px;
+	margin-left: 150px;
+}
+
+.legal-disputes-title{
+    font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 59px;
+  	line-height: 1;
+  	font-weight: 400;
+  }
+
+
+ .legal-disputes-txt {
+ 	margin-top: 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 25px;
+  	line-height: 1;
+  	font-weight: 300;
+  }
+
+  .paragraph-indent {
+  	margin-bottom: 15px;
+  }
+
+  .legal-disputes-img {
+  	height: auto;
+  	width: 500px;
+  	margin-top: 100px;
+	margin-left: 70px;
+  }
+
+.legal-disputes-im {
+  	height: auto;
+  	width: 500px;
+  }
+
+// - - - Отзывы моих клиентов - - -
+
+.my-clients-reviews-bg {
+	padding-top: 50px;
+	width: 100%;
+	height: 780px;
+	background-color: #fefffc;
+}
+
+.my-clients-reviews-title {
+	font-size: 46px;
+  	font-family: "Open Sans Condensed", sans-serif;
+  	font-weight: 400;
+  	letter-spacing: 10px;
+ 	margin-left: 175px;
+  	margin-top: 15px;
+  	background-color: #fefffc;
+  	margin-left: 400px;
+}
+
+.reviews-of-my-work {
+	font-size: 30px;
+  	font-family: "Open Sans Condensed", sans-serif;
+  	font-weight: 200;
+  	letter-spacing: 5px;
+  	background-color: #fefffc;
+  	padding-top: 20px;
+  	margin-left: 375px;
+}
+
+.image-and-tables-shared {
+	width: 100%;
+	height: 650px;
+	background-color: #fefffc;
+	display: flex;
+}
+
+.img-tables-shared {
+	height: 500px;
+	width: auto;
+	margin-top: 30px;
+	margin-left: 25px;                
+}
+
+.table-of-reviews-block-1 {
+	height: 550px;
+	width: 850px;
+	background-color: #fefffc;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.feedback-table-row-1 {
+	width: 850px;
+	height: 215px;
+	background-color: #fefffc;
+	margin-top: 30px;
+	display: flex;
+
+}
+
+.row-1-block-1 {
+	width: 270px;
+	height: 215px;
+	background-color: #fefffc;
+	margin-right: 20px;
+	border: 2px solid #a5a8a7;
+}
+
+.row-1-block-2 {
+	width: 270px;
+	height: 215px;
+	background-color: #fefffc;
+	margin-right: 20px;
+	border: 2px solid #a5a8a7;
+}
+
+.row-1-block-3 {
+	width: 270px;
+	height: 215px;
+	background-color: #fefffc;
+	border: 2px solid #a5a8a7;
+}
+
+.block-1title-1 {
+	font-size: 30px;
+  	font-family: "Open Sans Condensed", sans-serif;
+  	font-weight: 600;
+  	margin-top: 15px;
+  	text-align: center;
+}
+
+.block-1-txt-1 {
+	font-size: 24px;
+  	font-family: "Open Sans Condensed", sans-serif;
+  	font-weight: 200;
+  	margin-left: 10px;
+  	margin-right: 10px;
+  	margin-top: 20px;
+}
+
+// - - - Этапы работы со мной - - -
+
+.stages-of-working-with-me-bg {
+	width: 100%;
+	height: 560px;
+	background-color: #f2f2f2;
+}
+
+.work-stages-general {
+	height: 130px;
+	width: 100%;
+	background-color: #f2f2f2;
+	padding-top: 70px;
+}
+
+.work-stages-title {
+	height: 100px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 45px;
+	color: black;
+	letter-spacing: 7px;
+	display: flex;
+	//align-items: center;
+	justify-content: center;
+}
+
+.numerous-clients {
+	height: 100px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: black;
+	letter-spacing: 3px;
+}
+
+.block-with-icons {
+	width: 1200px;
+	height: 350px;
+	background-color: #f2f2f2;
+	display: flex;
+	margin-top: 80px;
+	margin-left: 80px;
+}
+
+.icon-11 {
+	background: url(11.svg) no-repeat;
+	width: 100px;
+	height: 128px;
+	margin: 0 auto;
+    background-size: 100%;
+}
+
+.icon-22 {
+	background: url(22.svg) no-repeat;
+	width: 100px;
+	height: 128px;
+	margin: 0 auto;
+    background-size: 100%;
+}
+
+.icon-33 {
+	background: url(33.svg) no-repeat;
+	width: 100px;
+	height: 128px;
+	margin: 0 auto;
+    background-size: 100%;
+}
+
+.icon-44 {
+	background: url(44.svg) no-repeat;
+	width: 100px;
+	height: 128px;
+	margin: 0 auto;
+    background-size: 100%;
+}
+
+.individ-2 {
+	width: 300px;
+	height: 320px;
+	background-color: #f2f2f2;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.fix-txt-4 {
+	width: 300px;
+	height: 80px;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+
+
+// - - - подвал - - -
+
+footer {
+	width: 100%;
+	height: 550px;
+	background-color: #dadbca;
+	
+}
+
+.map {
+	width: 300px;
+	height: auto;
+	margin-top: 70px;
+	margin-left: 50px;
+}
+
+.contact-information {
+	width: 500px;
+	height: 450px;
+	margin-left: 450px;
+	//background-color: #eef78d;
+	margin-top: 70px;
+}
+
+.footer-common {
+	display: flex;
+}
+
+.contact-information-title {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 27px;
+	color: black;
+	letter-spacing: 3px;
+	margin-top: 35px;
+}
+
+.bulleted {
+	//background-color: red;
+	margin-left: 20px;
+	margin-top: 40px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.join-us-now {
+	margin-left: 50px;
+	margin-top: 40px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+
+//------------------------------------------
+.social a {
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: url(inst.png);
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    background-size: 100%;
+    margin-left: 170px;
+}
+
+.instagram a:hover 
+{box-shadow: 0 0 10px rgba(0,0,0,0.5);}
+.social-vk a {
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: url(vk.png);
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    background-size: 100%;
+    margin-left: 10px;
+}
+
+.social-vk a:hover 
+{box-shadow: 0 0 10px rgba(0,0,0,0.5);}
+
+.social-whatsapp a {
+	width: 48px;
+    height: 48px;
+    float: left;
+    background: url(whatsapp.png);
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    background-size: 100%;
+    margin-left: 10px;
+}
+.social-whatsapp a:hover
+{box-shadow: 0 0 10px rgba(0,0,0,0.5);}
